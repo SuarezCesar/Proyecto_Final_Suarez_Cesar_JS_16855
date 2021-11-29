@@ -6,6 +6,7 @@ let baseGamePrice = 669; //Precio del juego base. Actualizar si cambia de precio
 localStorage.clear(); /*El localstorage se reinicia con una recarga de la página debido a que cada calculo es único.
 Sin embargo, el localstorage se usa para poder actualizar correctamente las variables dentro del modal final de resultado.
 Sin este proceso el modal mostraria valores 0, 0, debido a que toma las variables como están inicializadas*/
+localStorage.setItem("totalHours", 0); //Inicializo el total de horas en 0 por si el usuario decide no comprar con horas.
 
 /*Impresión de las cards correspondientes al juego base. No se pueden comprar por separado por lo cual tienen comportamiento de grupo.
 Se anima con un mouseover para informar precio del bundle*/
