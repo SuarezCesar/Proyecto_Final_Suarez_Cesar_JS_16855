@@ -1,0 +1,207 @@
+@font-face {
+  font-family: Fixture-Bold;
+  src: url(../fonts/Fixture-Bold.otf);
+}
+body{
+  background-color: #1f2020;
+}
+.navbar-nav{
+  padding-inline-start: 40px
+}
+.nav-link{
+  color: white !important;
+  font-family: Fixture-Bold;
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: .9;
+  font-stretch: condensed;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px hsl(0deg 0% 100% / 25%), -1px -1px 10px hsl(0deg 0% 100% / 25%);
+}
+.navbar-collapse{
+  justify-content: space-around;
+}
+
+/* modal count */
+
+.release{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 15.7rem;
+  height: 3rem;
+  padding-left: 4.4rem;
+  padding-right: 4.4rem;
+  background-color: #ff2a2b;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  font-family: Fixture-Bold,sans-serif;
+  font-size: 1.25em;
+  line-height: 1.1;
+  font-weight: 400;
+  font-stretch: condensed;
+  letter-spacing: .05em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer
+}
+.modal-content.count{
+  background-image: url(../imgHeader/fondoModal.jpg);
+}
+.modal-body img{
+  display: block;
+  width: 28rem;
+  object-fit: contain;
+  max-height: 35vh;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.countdown__separator {
+  padding: 0 0.8rem;
+  color: rgba(0,0,0,.6);
+  font-family: roboto;
+  font-size: 4em;
+  font-weight: 700;
+  text-align: center;
+}
+.countdown__number-block {
+  width: 75px;
+  height: 85px;
+  margin-bottom: 0.8rem;
+  background: rgba(0,0,0,.9);
+  border-radius: 8px;
+  color: hsla(0,0%,100%,.87);
+  font-family: var(--roboto-condensed);
+  font-size: 4em;
+  line-height: 1.4;
+  font-weight: 700;
+  text-align: center;
+}
+.countdown__number-label{
+  font-family: Fixture-Bold;
+  text-transform: uppercase;
+}
+
+/* Cards index */
+
+#cards {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.descriptions {
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+}
+
+.nombrePersonajes {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+#priceS{
+  color: white;
+  text-align: center;
+  position: relative;
+  top:-112px;
+  margin-bottom:-70px;
+}
+#paidOnly {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#grindeable {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Perks Information */
+
+#loading{
+  width: 100%;
+}
+
+#perksChild {
+  text-align: center;
+  justify-content: space-around;
+}
+
+.card {
+  justify-content: center;
+}
+
+
+.mostRecentResults {
+  padding-top: 20px;
+  color: blanchedalmond;
+}
+
+.resultsColor {
+  color: white;
+}
+.btn{
+  border: solid 1px white;
+}
+#imgLoading{
+  text-align: center;
+}
+#imgLoading img{
+  width: 100%;
+}
+.card{
+  background-color: #1f2020;
+}
+
+.card-title{
+  color: white;
+}
+.card-text{
+  color: white;
+}
+
+/* modal Results */
+
+#botonModal {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.iconModal{
+  width: 40px;
+}
+
+.modal-content.result{
+  background-color: #1f2020;
+}
+.imgModal2{
+  width:134px ;
+}
+.modal-title.modal2{
+  color: #fff;
+}
+.modal-body.modal2B p{
+  color: #fff;
+}
+.btn-close.close2{
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
