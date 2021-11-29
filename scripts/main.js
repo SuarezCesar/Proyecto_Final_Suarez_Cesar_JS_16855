@@ -155,7 +155,7 @@ actual hasta que se refresca la página e inicia un nuevo localstorage*/
 $("#botonModal").append(
   `<div>
       <button type='button' class="btn btn-warning btn-dark resultsButton" data-bs-toggle="modal" data-bs-target="#modalResults">
-        <img src="../imgHeader/iconPerks.png" class="iconModal">
+        <img src="imgHeader/iconPerks.png" class="iconModal">
         Sacrifice Souls to the Entity (Calculate Results)</button>
       </div>  
 
