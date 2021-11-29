@@ -163,7 +163,7 @@ $("#botonModal").append(
         <div class="modal-dialog">
           <div class="modal-content result">
           <div class="modal-header">
-          <img src="../imgHeader/LogoResults.png" class="imgModal2">
+          <img src="imgHeader/LogoResults.png" class="imgModal2">
           <h5 class="modal-title modal2">You will need the following to feed the entity...</h5>
           <button type="button" class="btn-close close2" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
